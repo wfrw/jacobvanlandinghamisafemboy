@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+}
+.bows {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    pointer-events: none;
+}
+.bow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.bow.top-left {
+    top: 0;
+    left: 0;
+}
+.bow.top-right {
+    top: 0;
+    right: 0;
+}
+.bow.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.bow.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+.content {
+    margin-top: 20px;
+    text-align: left;
+}
+.face {
+    font-size: 24px;
+    color: purple;
+    position: absolute;
+}
